@@ -1,0 +1,66 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+main {
+    margin: auto;
+    background-color: white;
+}
+
+div {
+    display: block;
+}
+
+a:link  {
+    text-decoration: none;
+}
+/* Bara de nav*/
+nav {
+    background-color: black;
+    color: darkgray ;
+    height: 1.8em;
+}
+
+.nav {
+    position: relative;
+    width: 10em;
+    left: 75%;
+    list-style: none;
+    padding-top: 0.6em;
+    font-size: 0.85em;
+    z-index: 1;
+}
+
+.nav li a {
+    display: block;
+    padding: 10px 15px;
+    background-color: white;
+    color: green;
+}
+
+.nav li a:hover {
+    background-color: green;
+    color: white;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    width: 14em;
+    min-width:140px;
+    list-style: none;
+    left: -0.5px;
+}
+
+.nav:hover{
+    background-color: white;
+    color: black;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
