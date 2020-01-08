@@ -64,3 +64,65 @@ nav {
 .nav li:hover > ul {
     display:block;
 }
+/* Cajas */
+.trecaja {
+    display: table;
+    width: 862px;
+}
+.trecaja .row-panel {
+    border: 1px solid rgb(151, 151, 151, 0.4);
+    background-color: white;
+    float: left;
+    height: 443px;
+    margin-bottom: 40px;
+    margin-left: 17px;
+    margin-right: 8px;
+    overflow: hidden;
+    padding: 15px 15px 15px 0px;
+    position: relative;
+    width: 226px;
+}
+.trecaja img {
+    height: 156px;
+    width: 256px;
+
+}
+.trecaja  .row-img {
+    height: 156px;
+    width: 256px;
+    border-bottom: 5px solid rgb(51, 165, 68);
+}
+
+.trecaja .we {
+    height: 19px;
+    width: 234px;
+    color: rgb(58, 58, 58);
+    padding-top: 6%;
+}
+
+.trecaja .common {
+    height: 60px;
+    width: 207px;
+    color: rgb(51, 165, 68);
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 1%;
+}
+
+.text-row div {
+    height: 100px;
+    width: 234px;
+    padding-top: 6%;
+    color: rgb(119, 119, 119);
+    font-size: 17px;
+}
+
+.trecaja .bottom-row {
+    height: 22px;
+    width: 67px;
+    color: rgb(51, 165, 68);
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 7px;
+    padding-left: 18px;
+}
