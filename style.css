@@ -16,6 +16,10 @@ main {
     /* background-color: grey; */
 }
 
+a {
+    text-decoration: none;
+}
+
 div {
     display: block;
 }
@@ -89,67 +93,86 @@ header {
 }
 
 /* Content video */
+.row1{
+    height: 36em; 
+} 
 
-.contenedor_video{
- min-width: 868px;
-    position: relative;
-    top: 0%;
-    left: 0%;
-    height: 100%;
+.row2 {
+    height: 100%; 
+    border-right: none; 
+    border-left: none; 
+    position: relative; 
+    padding: 20px; 
+    background-size: cover;
+} 
+
+.contenedor_video {
+    position:absolute; 
+    top: 0%; 
+    left: 0%; 
+    height: 93%; 
     width: 100%;
-    margin: 0px;
+    overflow: hidden;
 }
-.video{
-    width:100%;
-    height: 100%;
+ 
+.maxwidth {
+    width: 100%;
 }
+
+.contenedor_video video {
+    position:relative;
+    bottom: 10%;
+    z-index: 0;
+}
+
 /* content-indent-row */
 .content-indent-row {
     background-color: rgb(242, 242,242);
     color: rgb(58, 58, 58);
     display: block;
-    padding: 0px;
+    padding: 30px 0px 70px 0px;
     height: 699px;
 }
 .content-box {
     float: none;
     height: 699px;
-    width: 862px;
+    /* width: 862px; */
     margin: 0 auto;
     position: relative;
     padding-right: 15px;
     padding-left: 15px;
 }
 /* texto debajo video */
+.text-español {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
 .text-español p{
+    margin: auto;
     font-size: 1.5em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 80%;
-    margin-left: 15%;
+    font-weight: 700;
+    width: 60%;
     padding: 15px 15px 15px 15px;
-}
-
-.text-español .enlace1
-{
-    margin-left: 40%;
-    border-right: 1.5px solid;
-    border-color: grey;
-    float: left;
-    padding-right: 4px;
-    
 }
 
 .text-español a
 {
+    margin: auto;
+    display: inline-block;
+    font-size: 20px;
+    width: 100px;
     color: green;
-    text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    margin-top: 2em;
+}
+.text-español .linea {
+    border-right: 0.5px solid black;
 }
 /* 3 rows */
 .trecaja {
     display: flex;
-    width: 862px;
+    margin: 0px 15% 0px 15%;
 }
 .trecaja .row-panel {
     border: 1px solid rgb(151,151,151,0.4);
@@ -159,17 +182,16 @@ header {
     margin-left: 17px;
     margin-right: 8px;
     overflow: hidden;
-    padding: 15px 15px 15px 0px;
-    width: 226px;
+    width: 33.6%;
 }
 .trecaja img {
-    height: 156px;
-    width: 256px;
+    height: 100%; 
+    width: 100%; 
 
 }
 .trecaja  .row-img {
-    height: 156px;
-    width: 256px;
+    height: 35%;
+    width: 100%;
     border-bottom: 5px solid rgb(51, 165, 68);
 }
 
