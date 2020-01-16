@@ -177,7 +177,7 @@ header {
 .trecaja .row-panel {
     border: 1px solid rgb(151,151,151,0.4);
     background-color: white;
-    height: 443px;
+    height: 33%;
     margin-bottom: 40px;
     margin-left: 17px;
     margin-right: 8px;
@@ -334,18 +334,21 @@ header {
 /* Newsletter */
 .newsletter-containt {
     position: relative;
+    text-align: center;
+    margin-top: 40px;
 }
 .email-content {
     display: inline-block;
+    margin-left: -10%
 }
 .add-email {
     display: block;
     position: absolute;
     border: 1px solid #c1c1c1;
     width: 225px;
-    height: 40px;
+    height: 24px;
     text-align: center;
-    padding: 5px 5px 5px 5px;
+    padding: 11px 5px 5px 5px;
 }
 .im-in {
     display: block;
@@ -353,7 +356,8 @@ header {
     background-color: #f23e7b;
     border: 1px solid #f23e7b;
     width: 70px;
-    height: 40px;
+    height: 22px;
     text-align: center;
-    padding: 7px;
+    padding: 11px 7px 7px 7px;
+    margin-left: 235px;
 }
