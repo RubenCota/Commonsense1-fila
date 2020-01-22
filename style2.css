@@ -1,0 +1,432 @@
+/* @font-face {
+    font-family: slick_wolf;
+    src: url(./Fuentes/slick.woff);
+} */
+
+* {
+    margin:0px;
+    padding:0px;
+}
+/* body {
+    font-family: slick_wolf;
+} */
+
+main {
+    margin: auto;
+    /* background-color: grey; */
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    display: block;
+}
+/* Bara de nav*/
+nav {
+    background-color: black;
+    color: darkgray ;
+    height: 1.8em;
+}
+
+.nav {
+    position: relative;
+    width: 10em;
+    left: 75%;
+    list-style: none;
+    padding-top: 0.6em;
+    font-size: 0.85em;
+    z-index: 1;
+}
+
+.nav li a {
+    display: block;
+    padding: 10px 15px;
+    background-color: white;
+    color: green;
+}
+
+.nav li a:hover {
+    background-color: green;
+    color: white;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    width: 14em;
+    min-width:140px;
+    list-style: none;
+    left: -0.5px;
+}
+
+.nav:hover{
+    background-color: white;
+    color: black;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+/* Header */
+header {
+    height: 4em;
+    display: flex;
+}
+.logo {
+    float: left;
+    width: 132px;
+    margin: 15px 35% 10px 25%;
+}
+.donate{
+    float: left;
+    border: grey 1px solid;
+    margin: 15px 0px 10px 0px;
+    padding: 8px 25px 8px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+.donate1 a:hover{
+    background-color: grey;
+}
+
+/* Content video */
+.row1{
+    height: 36em; 
+} 
+
+.row2 {
+    height: 100%; 
+    border-right: none; 
+    border-left: none; 
+    position: relative; 
+    padding: 20px; 
+    background-size: cover;
+} 
+
+.contenedor_video {
+    position:absolute; 
+    top: 0%; 
+    left: 0%; 
+    height: 93%; 
+    width: 100%;
+    overflow: hidden;
+}
+ 
+.maxwidth {
+    width: 100%;
+}
+
+.contenedor_video video {
+    position:relative;
+    bottom: 10%;
+    z-index: 0;
+}
+
+/* content-indent-row */
+.content-indent-row {
+    background-color: rgb(242, 242,242);
+    color: rgb(58, 58, 58);
+    display: block;
+    padding: 30px 0px 70px 0px;
+    height: 699px;
+}
+.content-box {
+    float: none;
+    height: 699px;
+    /* width: 862px; */
+    margin: 0 auto;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/* texto debajo video */
+.text-español {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.text-español p{
+    margin: auto;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    width: 60%;
+    padding: 15px 15px 15px 15px;
+}
+
+.text-español a
+{
+    margin: auto;
+    display: inline-block;
+    font-size: 20px;
+    width: 100px;
+    color: green;
+    margin-top: 2em;
+}
+.text-español .linea {
+    border-right: 0.5px solid black;
+}
+/* 3 rows */
+.trecaja {
+    display: flex;
+    margin: 0px 15% 0px 15%;
+}
+.trecaja .row-panel {
+    border: 1px solid rgb(151,151,151,0.4);
+    background-color: white;
+    /* height: 33%; */
+    margin-bottom: 40px;
+    margin-left: 17px;
+    margin-right: 8px;
+    overflow: hidden;
+    width: 33.6%;
+}
+.trecaja img {
+    height: 100%; 
+    width: 100%; 
+
+}
+.trecaja  .row-img {
+    height: 35%;
+    width: 100%;
+    border-bottom: 5px solid rgb(51, 165, 68);
+}
+
+.trecaja .we {
+    height: 19px;
+    width: 234px;
+    color: rgb(58, 58, 58);
+    padding-top: 6%;
+}
+
+.trecaja .common {
+    height: 60px;
+    width: 207px;
+    color: rgb(51, 165, 68);
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 1%;
+}
+
+.text-row div {
+    height: 100px;
+    width: 234px;
+    padding-top: 6%;
+    color: rgb(119, 119, 119);
+    font-size: 17px;
+}
+
+.trecaja .bottom-row {
+    height: 22px;
+    width: 67px;
+    color: rgb(51, 165, 68);
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 7px;
+    padding-left: 18px;
+}
+
+/* row2-1 */
+
+.row2-1 {
+    display: block;
+    width: 100%;
+    height: 516px;
+}
+.row2-1 .row2-2 {
+    display: flex;
+    width: 75%;
+    margin: 0px auto 0px auto;
+    position: relative;
+}
+
+.row2-2-1-box {
+    display: block;
+    padding: 25px;
+    text-align: left;
+}
+
+.row2-2 .box-text {
+    flex: auto;
+    width: 56.67%;
+    padding: 0px 40px 0px 0px;
+    position: relative;
+    font-size: 1em;
+    text-align: left;
+    margin: 0;
+}
+
+.row2-2 .img-right{
+    display: block;
+    width: 33.37%;
+    text-align: right;
+    position: relative;
+    padding: 0;
+}
+
+.row2-2 .img-right img{
+    width: 100%;
+    max-width: 200px;
+}
+
+.row2-2 .row2-2-1 {
+    display: block;
+    width: 50%;
+    background-color: rgb(242, 243,239);
+    margin: 60px 1% 60px 1%; 
+    position: relative;
+    float: none;
+}
+
+
+.color_bottom_2_2_1 {
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    left: -1px;
+    right: -1px;
+    height: 5px;
+    background-image: linear-gradient(to right, rgb(43, 180, 113), rgb(2, 131, 171));
+}
+
+.row2-2 .row2-2-2 {
+    width: 50%;
+    background-color: rgb(242, 243,239);
+    margin: 60px 1% 60px 1%; 
+    position: relative;
+}
+
+.color_bottom_2_2_2 {
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    left: -1px;
+    right: -1px;
+    height: 5px;
+    background-image: linear-gradient(to right,rgb(48, 35, 174), rgb(201, 109, 216));
+}
+
+/* Imagen Niños */
+.imgniño{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    }
+.imgniño img {
+    width: 100%;
+}
+.imgniño .texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Newsletter */
+.newsletter-containt {
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+}
+.email-content {
+    display: inline-block;
+    margin-left: -10%
+}
+.add-email {
+    display: block;
+    position: absolute;
+    border: 1px solid #c1c1c1;
+    width: 225px;
+    height: 24px;
+    text-align: center;
+    padding: 11px 5px 5px 5px;
+}
+.im-in {
+    display: block;
+    position: absolute;
+    background-color: #f23e7b;
+    border: 1px solid #f23e7b;
+    width: 70px;
+    height: 22px;
+    text-align: center;
+    padding: 11px 7px 7px 7px;
+    margin-left: 235px;
+}
+        /*Kamal Rabah y Javier Salmerón*/
+.fila{
+    text-align: left;
+    margin-left: 17%;
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.col2{
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    width: 50%;
+    margin-left: 40px;
+    padding-top: 15px;
+        
+}
+
+.col3{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding-top: 15px;
+    
+}
+ 
+.redes{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    padding-top: 15px;
+    
+}
+
+.redes>p {
+    margin-left: 9px;
+    padding-top: 5px;
+}
+.icono{
+    width: 27px;
+    border-radius: 20px;
+    color: white;
+    
+}
+
+.icono:hover{
+    background-color: black;
+    display: flex;   
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.section1>a{
+    margin-bottom: 10px;
+    color: black;
+}
+.section1>a:hover{
+    color:gray
+}
+        /*Kamal Rabah y Javier Salmerón*/
